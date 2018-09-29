@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/9/29 22:06:53。
+     1>项目“E:\Project\CurlTest\CurlTest\CurlTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CurlTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CurlTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CurlTest.cpp /D_CRT_SECURE_NO_WARNINGS 
+         CurlTest.cpp
+     1>e:\project\curltest\curltest\curltest.cpp(97): warning C4800: “const wchar_t *”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\project\curltest\curltest\curltest.cpp(65): warning C4715: “getUrl”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\CurlTest\Debug\CurlTest.exe" /INCREMENTAL /NOLOGO libcurld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CurlTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\CurlTest\Debug\CurlTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\CurlTest\Debug\CurlTest.lib" /MACHINE:X86 Debug\CurlTest.exe.embed.manifest.res
+         Debug\CurlTest.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CurlTest.exe.embed.manifest" /manifest Debug\CurlTest.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         CurlTest.vcxproj -> E:\Project\CurlTest\Debug\CurlTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CurlTest.unsuccessfulbuild”。
+         正在对“Debug\CurlTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\CurlTest\CurlTest\CurlTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93
